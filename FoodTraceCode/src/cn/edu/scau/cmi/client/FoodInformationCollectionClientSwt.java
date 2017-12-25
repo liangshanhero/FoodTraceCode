@@ -1,4 +1,4 @@
-/*package cn.edu.scau.cmi.client;
+package cn.edu.scau.cmi.client;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -11,14 +11,14 @@ import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.widgets.Text;
 
-import cn.edu.scau.cmi.qrbar.QRCoder;
+import cn.edu.scau.cmi.bar.QRCoder;
 
 import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.TabFolder;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 
-public class LoginClientSwt {
+public class FoodInformationCollectionClientSwt {
 
 	protected Shell shell;
 	private Text text;
@@ -39,25 +39,19 @@ public class LoginClientSwt {
 		
 		pps.load(new FileInputStream("project.properties"));
 		pps.getProperty("oneBarDirectionary");
-		LoginClientSwt.imgPath = imgPath;
+		FoodInformationCollectionClientSwt.imgPath = imgPath;
 	}
 
-	*//**
-	 * Launch the application.
-	 * @param args
-	 *//*
+
 	public static void main(String[] args) {
 		try {
-			LoginClientSwt window = new LoginClientSwt();
+			FoodInformationCollectionClientSwt window = new FoodInformationCollectionClientSwt();
 			window.open();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
 
-	*//**
-	 * Open the window.
-	 *//*
 	public void open() {
 		Display display = Display.getDefault();
 		createContents();
@@ -70,9 +64,6 @@ public class LoginClientSwt {
 		}
 	}
 
-	*//**
-	 * Create contents of the window.
-	 *//*
 	protected void createContents() {
 		shell = new Shell();
 		shell.setSize(450, 300);
@@ -118,7 +109,7 @@ public class LoginClientSwt {
 			public void widgetSelected(SelectionEvent e) {
 				String content = "Scau";
 				try {
-					QRCoder.encode(content, imgPath);
+//					QRCoder.encode(content, imgPath);
 				} catch (Exception e1) {
 					e1.printStackTrace();
 				}
@@ -138,4 +129,3 @@ public class LoginClientSwt {
 
 	}
 }
-*/
