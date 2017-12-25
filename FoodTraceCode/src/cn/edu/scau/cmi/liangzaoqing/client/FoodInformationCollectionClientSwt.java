@@ -1,4 +1,4 @@
-package cn.edu.scau.cmi.client;
+package cn.edu.scau.cmi.liangzaoqing.client;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
