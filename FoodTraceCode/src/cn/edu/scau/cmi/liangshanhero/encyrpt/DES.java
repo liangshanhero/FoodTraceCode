@@ -1,4 +1,4 @@
-package util;
+package cn.edu.scau.cmi.liangshanhero.encyrpt;
 
 import java.security.SecureRandom;
 import java.util.Date;

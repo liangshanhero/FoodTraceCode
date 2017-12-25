@@ -1,4 +1,4 @@
-package util;
+package cn.edu.scau.cmi.liangshanhero.encyrpt;
 
 import java.util.Date;
 
