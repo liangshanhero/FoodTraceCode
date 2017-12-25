@@ -1,4 +1,4 @@
-package cn.edu.scau.cmi.client;
+package cn.edu.scau.cmi.liangzaoqing.client;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -18,7 +18,7 @@ import org.eclipse.swt.widgets.TabFolder;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 
-public class FoodInformationCollectionClientSwt {
+public class FoodInformationCollectionClient {
 
 	protected Shell shell;
 	private Text text;
@@ -39,13 +39,13 @@ public class FoodInformationCollectionClientSwt {
 		
 		pps.load(new FileInputStream("project.properties"));
 		pps.getProperty("oneBarDirectionary");
-		FoodInformationCollectionClientSwt.imgPath = imgPath;
+		FoodInformationCollectionClient.imgPath = imgPath;
 	}
 
 
 	public static void main(String[] args) {
 		try {
-			FoodInformationCollectionClientSwt window = new FoodInformationCollectionClientSwt();
+			FoodInformationCollectionClient window = new FoodInformationCollectionClient();
 			window.open();
 		} catch (Exception e) {
 			e.printStackTrace();
