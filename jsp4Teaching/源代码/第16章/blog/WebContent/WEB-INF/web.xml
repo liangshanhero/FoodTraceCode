@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>blog</display-name>
+	<!-- 配置session的有效活动时间（单位：分钟） -->
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+	<!-- 配置前台请求处理结束后返回的页面 -->
+	<context-param>
+		<param-name>indexTemp</param-name>
+		<param-value>/view/IndexTemp.jsp</param-value>
+	</context-param>
+	<!-- 配置请求后台操作返回的页面 -->
+	<context-param>
+		<param-name>adminTemp</param-name>
+		<param-value>/pages/admin/AdminTemp.jsp</param-value>
+	</context-param>
+	<!-- 配置前台操作失败后返回的提示页面 -->
+	<context-param>
+		<param-name>messagePage</param-name>
+		<param-value>/pages/messages.jsp</param-value>
+	</context-param>
+</web-app>

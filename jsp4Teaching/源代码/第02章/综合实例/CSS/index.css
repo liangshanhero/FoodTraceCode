@@ -1,0 +1,82 @@
+﻿body{
+	margin:0px;			/*设置外边距，也就是页面内容与浏览器窗口内边框的间隙*/
+	font-size: 12px;	/*文字的大小为12像素*/
+}
+a:hover {
+	color: #FF4400;		/*设置鼠标移动到超级链接上的文字颜色*/
+}
+a {
+	color: #3C404D;		/*设置超级链接文字的颜色*/
+	text-decoration:none;	/*无下划线*/
+}
+
+.noborder{
+	border:0px;		/*无边框*/
+}
+/* *********Logo应用的样式********** */
+header{
+	background:url(../images/bg_top.jpg) repeat-x;	/*设置背景图片，并且在X轴重复*/
+	height:112px;	/*设置高度*/
+}
+/* *********导航栏应用的样式********** */
+nav{
+	background:url(../images/bg_navigation.gif) repeat-x;	/*设置背景图片，并且在X轴重复*/
+	height:35px;	/*设置高度*/
+	line-height:35px;	/*设置行高*/
+	padding-top:4px;		/*设置顶内边距*/
+	padding-left:27%;		/*设置左内边距*/
+}
+nav ul{
+	list-style-type:none;
+	margin:0px;	/*设置外边距*/
+}
+nav li{
+	float:left;
+	padding:0px 2px 0px 0px;	/*设置内边距*/
+	line-height:22px;	/*设置行高*/
+}
+nav  a{
+	text-decoration:underline;
+	font-weight:bold;	/*文字加粗*/
+	color: #F54292;		/*设置超级链接文字的颜色*/
+}
+nav  a:hover{
+	text-decoration:underline;	/*文字加粗*/
+	font-weight:bold;	/*文字加粗*/
+	color: #FF6600;	/*设置当鼠标移动一超级链接上时文字的颜色*/
+}
+.navigation_input{
+	color: #333333;	/*设置文字的颜色*/
+	border: 1px solid #7B98B1;	/*设置边框的样式*/
+	height:19px;		/*设置输入框的高度*/
+}
+/* *********滚动字条应用的样式********** */
+#scrollScrip{
+	background:url(../images/scrollScript_bg.jpg) repeat-x;	/*设置背景图片，并且在X轴重复*/
+	height:36px;		/*设置高度*/
+	line-height:36px;		/*设置行高*/
+	padding-left:20px;	/*设置左内边距*/
+}
+/* *********字条墙应用的样式********** */
+#main{
+	background:url(../images/bg_main.jpg);		/*设置背景图片*/
+	height:400px;	/*设置度度*/
+}
+
+/******************版权信息栏应用的样式*******************************************/
+footer{
+	background:url(../images/bg_copyright.jpg) repeat-x;	/*设置背景图片，并且在X轴重复*/
+	text-align:center;		/*设置为居中显示*/
+	padding-top:1px;	/*设置顶内边距*/
+	padding-bottom:1px;	/*设置底内边距*/
+}
+footer ul{
+	list-style:none;	/*设置为无项目符号*/
+	line-height:20px;	/*设置行高*/
+}
+/* *********遮照层应用的样式********** */
+#shadeDiv{
+	filter:alpha(Opacity=35);	/*设置不透明度*/
+	background-color:#000;	/*设置背景颜色为黑色*/
+	position:absolute;	/*设置为绝对布局方式*/
+}

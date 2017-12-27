@@ -1,0 +1,33 @@
+﻿.Style0{background:url(../images/bg/style0.gif) no-repeat;position:absolute;cursor:move;width:240px;height:210px;filter:alpha(opacity=90);}
+.Style1{background:url(../images/bg/style1.gif) no-repeat;position:absolute;cursor:move;width:240px;height:210px;filter:alpha(opacity=90);}
+.Style2{background:url(../images/bg/style2.gif) no-repeat;position:absolute;cursor:move;width:240px;height:210px;filter:alpha(opacity=90);}
+.Style3{background:url(../images/bg/style3.gif) no-repeat;position:absolute;cursor:move;width:240px;height:210px;filter:alpha(opacity=90);}
+.Style4{background:url(../images/bg/style4.gif) no-repeat;position:absolute;cursor:move;width:240px;height:210px;filter:alpha(opacity=90);}
+.Style5{background:url(../images/bg/style5.gif) no-repeat;position:absolute;cursor:move;width:240px;height:210px;filter:alpha(opacity=90);}
+.Style6{background:url(../images/bg/style6.gif) no-repeat;position:absolute;cursor:move;width:240px;height:210px;filter:alpha(opacity=90);}
+.Style7{background:url(../images/bg/style7.gif) no-repeat;position:absolute;cursor:move;width:240px;height:210px;filter:alpha(opacity=90);}
+/* **********设置不同样式所对应的被祝福的人和许愿人文字颜色*********** */
+.Style0 .wishMan{color:#D00B0A;}	/*设置被祝福人文字颜色的样式*/
+.Style0 .wellWisher{color:#D00B0A;}	/*设置许愿人文字颜色的样式*/
+.Style1 .wishMan{color:#18BA97;}	/*设置被祝福人文字颜色的样*/
+.Style1 .wellWisher{color:#18BA97;}	/*设置许愿人文字颜色的样式*/
+.Style2 .wishMan{color:#E77B04;}	/*设置被祝福人文字颜色的样*/
+.Style2 .wellWisher{color:#E77B04;}	/*设置许愿人文字颜色的样式*/
+.Style3 .wishMan{color:#9733BE;}	/*设置被祝福人文字颜色的样*/
+.Style3 .wellWisher{color:#9733BE;}	/*设置许愿人文字颜色的样式*/
+.Style4 .wishMan{color:#C99B0E;}	/*设置被祝福人文字颜色的样*/
+.Style4 .wellWisher{color:#C99B0E;}	/*设置许愿人文字颜色的样式*/
+.Style5 .wishMan{color:#58A732;}	/*设置被祝福人文字颜色的样*/
+.Style5 .wellWisher{color:#58A732;}	/*设置许愿人文字颜色的样式*/
+.Style6 .wishMan{color:#C01886;}	/*设置被祝福人文字颜色的样*/
+.Style6 .wellWisher{color:#C01886;}	/*设置许愿人文字颜色的样式*/
+.Style7 .wishMan{color:#16B3EC;}	/*设置被祝福人文字颜色的样*/
+.Style7 .wellWisher{color:#16B3EC;}	/*设置许愿人文字颜色的样式*/
+/* ************************************************************* */
+.Num{margin:6px 0 0 30px;}			/*设置字条编号的样式*/
+.Num img{float:right;cursor:pointer;margin:2px 10px 0 0;}	/*设置关闭按钮的样式*/	
+.Detail{margin:5px 10px 0 20px;height:113px;overflow:hidden;word-wrap:break-word;}	/*设置字条详细内容区域的样式*/
+.Detail Img{float:left;margin-right:6px;}	/*设置表情图片的样式*/
+.wellWisher{margin:0 10px 0 0;text-align:right;}	/*设置许愿人位置的样式*/
+.comment{margin:5px 0px 0px 10px;font-size:9pt; float:left;}	/*设置“支持”的样式*/
+.Date{margin:5px 10px 0 0;text-align:right;font-size:9pt;}	/*设置许愿时间的样式*/

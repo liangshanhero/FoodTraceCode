@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><!--说明是XML文档，并指定XML文档的版本和编码-->
+<placard version="2.0"> 			<!--定义XML文档的根元素，并设置version属性-->
+  <info id="1"> 						<!--定义XML文档元素-->
+    <title>在servlet中弹出JavaScript</title>  
+    <content><![CDATA[PrintWriter out = response.getWriter();
+		out.println("<script>alert('修改成功！');</script>");]]></content>  
+    <pubDate>2012-06-15 16:12:06</pubDate> 
+  </info>  
+</placard>								<!--定义XML文档的根元素的结束标记-->

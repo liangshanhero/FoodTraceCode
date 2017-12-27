@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>心之语许愿墙</title>
+<script language="javascript">
+var iLayerMaxNum=4+100;	//设置最大的图层数
+</script>
+<script type="text/javascript" src="JS/index.js" charset="UTF-8"></script>
+<link href="CSS/index.css" rel="stylesheet"/>
+<link href="CSS/scrip.css" rel="stylesheet"/>
+<script type="text/javascript">
+	window.onload=function(){
+		var scrip=outScrip(1,1,3,"琦琦","爸爸、妈妈","愿你健康、快乐的成长！","2012-07-05 19:10:20",30)
+		+outScrip(2,0,1,"明日科技","wgh","明天会更好！","2012-07-10 12:36:50",21)
+		+outScrip(3,3,0,"太阳风","尘埃","恒则成！","2012-07-10 19:06:00",29)
+		+outScrip(4,2,2,"爸爸、妈妈","wgh","愿你们身体健康、万事如意！","2012-07-15 19:10:20",66);
+		document.getElementById("main").innerHTML=scrip;	//显示字条
+	}
+</script>
+</head>
+
+<body>
+<div style="display:none;width:100%;height:100%;" id="shadeDiv" onClick="Hide();"></div>
+<!--  -------------------------页面顶部----------------------------------------------------- -->
+<header><img src="images/banner.jpg" width="832" height="112" /></header>
+
+<nav>
+<form id="form1" name="form1" method="post" action=""> 
+<ul>
+  <li>请输入字条编号：</li><li><input type="text" name="keyID" id="keyID" class="navigation_input" />&nbsp;&nbsp;</li>
+  <li><input type="image" name="imageField" src="images/btn_search.gif" class="noborder" onClick="searchScrip(this.form.keyID);return false;"/>&nbsp;&nbsp;&nbsp;&nbsp;</li>  
+  <li><img src="images/addScript_ico.gif" width="12" height="18" /></li><li>&nbsp;<a href="#">贴字条</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><li><img src="images/listScript_ico.gif" width="12" height="17" /></li><li>&nbsp;<a href="#">字条列表</a></li>
+  </ul>
+</form>   
+</nav>
+ 
+<!-- ------------------------页面顶部结束---------------------------------------------------- -->
+<!--开始显示字条信息-->
+<div id="main"></div>
+<!--显示字条信息结束-->
+<!-- ------------------------版权信息栏---------------------------------------- -->
+<footer>
+<ul>
+	<li>CopyRight &copy; 2012 www.mrbccd.com 吉林省明日科技有限公司 </li>
+	<li>
+	本站请使用IE 9.0或火狐浏览器浏览 1280*1024为最佳显示效果
+	</li>
+</ul>
+<footer>
+<!-- -----------------------版权信息结束--------------------------------------- -->
+</body>
+</html>
