@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><!--说明是XML文档，并指定XML文档的版本和编码-->
-<placard version="2.0"> 			<!--定义XML文档的根元素，并设置version属性-->
-  <info id="1">
-    <title>重要通知</title>
-    <content>&nbsp;&nbsp;明天下午3点将举行乒乓球比赛的颁奖仪式！</content>
-    <pubDate>2012-06-21 16:20:48</pubDate>
-  </info>  
-</placard>								<!--定义XML文档的根元素的结束标记-->
-
