@@ -126,7 +126,7 @@ public class FoodTraceCodeSWTClient {
 				}
 				
 //				text_2.setText(rsaEncode);
-				File targetFile=new File("d:/foodTraceCodeImage/不加密的二维条码.jpg");
+				File targetFile=new File("不加密的二维条码.jpg");
 				try {
 					QRCoder.encode(encode, null, false, null,targetFile);
 				} catch (Exception e1) {
