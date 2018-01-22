@@ -18,7 +18,7 @@ import org.eclipse.swt.widgets.TabFolder;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 
-public class FoodInformationCollectionClient {
+public class FoodInformationCollectionSwtClient {
 
 	protected Shell shell;
 	private Text text;
@@ -39,13 +39,13 @@ public class FoodInformationCollectionClient {
 		
 		pps.load(new FileInputStream("project.properties"));
 		pps.getProperty("oneBarDirectionary");
-		FoodInformationCollectionClient.imgPath = imgPath;
+		FoodInformationCollectionSwtClient.imgPath = imgPath;
 	}
 
 
 	public static void main(String[] args) {
 		try {
-			FoodInformationCollectionClient window = new FoodInformationCollectionClient();
+			FoodInformationCollectionSwtClient window = new FoodInformationCollectionSwtClient();
 			window.open();
 		} catch (Exception e) {
 			e.printStackTrace();

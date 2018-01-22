@@ -22,7 +22,7 @@ import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.graphics.Image;
 
-public class FoodTraceCodeClient {
+public class FoodTraceCodeSWTClient {
 
 	protected Shell shell;
 	private Text text;
@@ -36,7 +36,7 @@ public class FoodTraceCodeClient {
 	 */
 	public static void main(String[] args) {
 		try {
-			FoodTraceCodeClient window = new FoodTraceCodeClient();
+			FoodTraceCodeSWTClient window = new FoodTraceCodeSWTClient();
 			window.open();
 		} catch (Exception e) {
 			e.printStackTrace();
