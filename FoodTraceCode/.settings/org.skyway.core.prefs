@@ -1,0 +1,6 @@
+#org.skyway.core settings
+#Thu Mar 15 11:16:49 CST 2018
+version=11.0.1.me201602080330
+default.top.level.package=cn.edu.scau.cmi.liangshanhero
+models.folder.name=.springDSL
+initialized=true
