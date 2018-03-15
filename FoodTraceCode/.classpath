@@ -11,6 +11,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="lib/com.ibm.icu_58.2.0.v20170418-1837.jar"/>
 	<classpathentry kind="lib" path="lib/org.eclipse.core.commands_3.9.0.v20170530-1048.jar"/>
 	<classpathentry kind="lib" path="lib/org.eclipse.core.runtime_3.13.0.v20170207-1030.jar"/>
