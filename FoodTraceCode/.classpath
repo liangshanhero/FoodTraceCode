@@ -22,6 +22,7 @@
 	<classpathentry kind="lib" path="lib/core-3.0.0.jar"/>
 	<classpathentry kind="lib" path="lib/jbarcode-0.2.8.jar"/>
 	<classpathentry kind="lib" path="lib/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.35-bin.jar"/>
 	<classpathentry kind="src" output="target/test-classes" path="test">
 		<attributes>
 			<attribute name="optional" value="true"/>
